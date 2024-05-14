@@ -1,5 +1,5 @@
 pipeline{
-	agent blue
+	agent Slave
 	stages{
 		stage("Checkout scm"){
 			steps{
