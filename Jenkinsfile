@@ -1,5 +1,7 @@
 pipeline{
-	agent Slave
+	agent {
+		label 'blue'
+  		}
 	stages{
 		stage("Checkout scm"){
 			steps{
